@@ -10,12 +10,14 @@ public class EnemyController : MonoBehaviour
 
     private Rigidbody2D _rb;
     private CircleCollider2D _Collider2D;
-
     private EnemiesManager _enemiesManager;
 
     private bool isAlive = true;
 
     private Vector2 direction;
+
+    // Getter
+    public Vector2 GetDirection() => direction;
 
     private void Awake()
     {
@@ -34,7 +36,7 @@ public class EnemyController : MonoBehaviour
                 _target = go.transform;
             }
         }
-        _enemiesManager = FindObjectOfType<EnemiesManager>(); // mi registro sull'EnemiesManager
+        _enemiesManager = FindObjectOfType<EnemiesManager>();
     }
 
     private void OnEnable()
@@ -110,9 +112,6 @@ public class EnemyController : MonoBehaviour
             }
         }
     }
-
-    // Getter
-    public Vector2 GetDirection() => direction;
 
 }
 

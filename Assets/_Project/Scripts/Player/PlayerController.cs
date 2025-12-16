@@ -15,6 +15,9 @@ public class PlayerController : MonoBehaviour
 
     private bool isAlive = true;
 
+    // Getter
+    public Vector2 GetDirection() => direction;
+
     private void Awake()
     {
         if (_rb == null)
@@ -41,7 +44,7 @@ public class PlayerController : MonoBehaviour
         {
             horizontal = Input.GetAxisRaw("Horizontal");
             vertical = Input.GetAxisRaw("Vertical");
-        
+
             direction = new Vector2(horizontal, vertical);
 
             if (direction.sqrMagnitude > 1f) direction = direction.normalized;
@@ -50,7 +53,7 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
-        _rb.MovePosition(_rb.position + direction * (speed * Time.deltaTime)); 
+        _rb.MovePosition(_rb.position + direction * (speed * Time.deltaTime));
     }
 
     public void DestroyGOPlayer()
@@ -67,12 +70,7 @@ public class PlayerController : MonoBehaviour
 
         //_animParam.SetBoolParam("isDying", true);
 
-
-        //Destroy(gameObject); // si distrugger il gameobject alla fine dell'animazione della morte con un Evento registrato all'ultimo frame della morte
+        //Destroy(gameObject); // si distrugge il gameobject alla fine dell'animazione della morte con un Evento registrato all'ultimo frame dell'animazione della morte
     }
-
-    // Getter
-    public Vector2 GetDirection() => direction;
-
 
 }

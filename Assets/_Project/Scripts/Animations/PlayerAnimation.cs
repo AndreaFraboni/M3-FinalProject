@@ -9,14 +9,14 @@ public class PlayerAnimation : MonoBehaviour
     [SerializeField] private string _horizontalSpeedParamName = "hSpeed";
 
     private Animator _anim;
-    private PlayerController _player;
+    private PlayerController _pc;
 
     private bool isWalking = false;
 
     private void Awake()
     {
         _anim = GetComponentInChildren<Animator>();
-        _player = GetComponentInChildren<PlayerController>();
+        _pc = GetComponentInChildren<PlayerController>();
     }
 
     private void SetVerticalSpeedParam(float diry)
@@ -41,7 +41,7 @@ public class PlayerAnimation : MonoBehaviour
 
     private void Update()
     {
-        Vector2 direction = _player.GetDirection();
+        Vector2 direction = _pc.GetDirection();
 
         isWalking = direction != Vector2.zero;
 
