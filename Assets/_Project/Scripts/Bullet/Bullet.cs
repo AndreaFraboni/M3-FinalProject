@@ -48,7 +48,7 @@ public class Bullet : MonoBehaviour
             }
             else
             {
-                Destroy(gameObject); // il proiettile si distrugge comunque quando impatta con qualsiasi oggetto in scena che non è un nemico ... senza causare danni !
+                Destroy(gameObject); // il proiettile si distrugge comunque quando impatta con qualsiasi oggetto in scena che non è un nemico ... senza chiamare alcun takedamage !
             }
         }
     }

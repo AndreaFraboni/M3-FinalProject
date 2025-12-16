@@ -54,21 +54,19 @@ public class LifeController : MonoBehaviour
 
     private void Defeated()
     {
-        if (CompareTag("Enemy"))
+        if (this.CompareTag("Enemy"))
         {
             var enemyController = GetComponent<EnemyController>();
             if (enemyController != null) enemyController.EnemyDeath();
             return;
         }
 
-        if (CompareTag("Player"))
+        if (this.CompareTag("Player"))
         {
             var playerCtrl = GetComponent<PlayerController>();
             if (playerCtrl != null) playerCtrl.PlayerDeath();
             return;
         }
-
-
         //Destroy(gameObject);
     }
 }

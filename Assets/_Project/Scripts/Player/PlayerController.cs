@@ -67,7 +67,8 @@ public class PlayerController : MonoBehaviour
 
         //_animParam.SetBoolParam("isDying", true);
 
-        //Destroy(gameObject);
+
+        //Destroy(gameObject); // si distrugger il gameobject alla fine dell'animazione della morte con un Evento registrato all'ultimo frame della morte
     }
 
     // Getter
