@@ -11,6 +11,7 @@ public class EnemyController : MonoBehaviour
     private Rigidbody2D _rb;
     private CircleCollider2D _Collider2D;
     private EnemiesManager _enemiesManager;
+    private EnemyAnimation _enemyAnimation;
 
     private bool isAlive = true;
 
@@ -37,6 +38,7 @@ public class EnemyController : MonoBehaviour
             }
         }
         _enemiesManager = FindObjectOfType<EnemiesManager>();
+        _enemyAnimation = FindObjectOfType<EnemyAnimation>();
     }
 
     private void OnEnable()
@@ -91,7 +93,7 @@ public class EnemyController : MonoBehaviour
         if (_Collider2D != null) _Collider2D.enabled = false;
         if (_rb != null) _rb.simulated = false;
 
-        //_animParam.SetBoolParam("isDying", true);
+        _enemyAnimation.SetBoolParam("isDying", true);
 
         //Destroy(gameObject);
     }
@@ -107,7 +109,8 @@ public class EnemyController : MonoBehaviour
         {
             if (collision.gameObject.CompareTag(Tags.Player))
             {
-                _target.gameObject.GetComponent<PlayerController>().DestroyGOPlayer();
+                //_target.gameObject.GetComponent<PlayerController>().DestroyGOPlayer();
+                _target.gameObject.GetComponent<PlayerController>().PlayerDeath();
                 DestroyGOEnemy();
             }
         }

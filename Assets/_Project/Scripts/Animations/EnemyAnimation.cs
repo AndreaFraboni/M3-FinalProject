@@ -34,7 +34,7 @@ public class EnemyAnimation : MonoBehaviour
         SetHorizontalSpeedParam(direction.x);
         SetVerticalSpeedParam(direction.y);
     }
-    private void SetBoolParam(string stateParam, bool value)
+    public void SetBoolParam(string stateParam, bool value)
     {
         _anim.SetBool(stateParam, value);
     }

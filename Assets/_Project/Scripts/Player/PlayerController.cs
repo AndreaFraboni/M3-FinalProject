@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D _rb;
     private CircleCollider2D _Collider2D;
+    private PlayerAnimation _PlayerAnimation;
 
     private bool isAlive = true;
 
@@ -26,6 +27,7 @@ public class PlayerController : MonoBehaviour
         }
 
         _Collider2D = GetComponent<CircleCollider2D>();
+        _PlayerAnimation = GetComponent<PlayerAnimation>();
     }
 
     private void Update()
@@ -68,7 +70,7 @@ public class PlayerController : MonoBehaviour
         if (_Collider2D != null) _Collider2D.enabled = false;
         if (_rb != null) _rb.simulated = false;
 
-        //_animParam.SetBoolParam("isDying", true);
+        _PlayerAnimation.SetBoolParam("isDying", true);
 
         //Destroy(gameObject); // si distrugge il gameobject alla fine dell'animazione della morte con un Evento registrato all'ultimo frame dell'animazione della morte
     }

@@ -8,12 +8,11 @@ public class PlayerAnimationEvents : MonoBehaviour
 
     private void Awake()
     {
-        if (_pc==null) _pc = GetComponentInParent<PlayerController>();
+        if (_pc == null) _pc = GetComponentInParent<PlayerController>();
     }
 
     public void DestroygameObject(string _state)
     {
         if (_state == "destroy") _pc.DestroyGOPlayer();
     }
-
 }

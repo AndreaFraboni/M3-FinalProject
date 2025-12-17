@@ -8,7 +8,7 @@ public class EnemyAnimationEvents : MonoBehaviour
 
     private void Awake()
     {
-       if (_ec==null) _ec = GetComponentInParent<EnemyController>();
+        if (_ec == null) _ec = GetComponentInParent<EnemyController>();
     }
 
     public void DestroygameObject(string _state)
