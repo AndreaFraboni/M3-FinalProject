@@ -8,6 +8,22 @@ public class LifeController : MonoBehaviour
     [SerializeField] private int _maxHP = 100;
     [SerializeField] private int _lives = 3;
 
+    private EnemyController _enemyController;
+    private PlayerController _playerController;
+
+    private void Awake()
+    {
+        _enemyController = GetComponentInParent<EnemyController>();
+        _playerController = GetComponentInParent<PlayerController>();
+
+        if (_enemyController == null && _playerController== null)
+        {
+            Debug.Log("LifeController: PROBLEMA !!!! NON TROVO nè PlayerController nè EnemyContoller !!!");
+            return;
+        }
+    }
+
+
     // Getter
     public int GetHp() => _currenthp;
     public int GetMaxHp() => _maxHP;
@@ -55,16 +71,14 @@ public class LifeController : MonoBehaviour
     private void Defeated()
     {
         if (CompareTag("Enemy"))
-        {
-            var enemyController = GetComponent<EnemyController>();
-            if (enemyController != null) enemyController.EnemyDeath();
+        {            
+            if (_enemyController != null) _enemyController.EnemyDeath();
             return;
         }
 
         if (CompareTag("Player"))
-        {
-            var playerCtrl = GetComponent<PlayerController>();
-            if (playerCtrl != null) playerCtrl.PlayerDeath();
+        {            
+            if (_playerController != null) _playerController.PlayerDeath();
             return;
         }
         //Destroy(gameObject);
