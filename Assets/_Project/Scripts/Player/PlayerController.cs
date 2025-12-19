@@ -27,7 +27,9 @@ public class PlayerController : MonoBehaviour
         }
 
         _Collider2D = GetComponent<CircleCollider2D>();
+
         _PlayerAnimation = GetComponent<PlayerAnimation>();
+        if (!_PlayerAnimation) Debug.LogError("NON HO TROVATO IL COMPONENTE PlayerAnimation !!!!");
     }
 
     private void Update()
@@ -71,7 +73,6 @@ public class PlayerController : MonoBehaviour
         if (_rb != null) _rb.simulated = false;
 
         _PlayerAnimation.SetBoolParam("isDying", true);
-
         //Destroy(gameObject); // si distrugge il gameobject alla fine dell'animazione della morte con un Evento registrato all'ultimo frame dell'animazione della morte
     }
 

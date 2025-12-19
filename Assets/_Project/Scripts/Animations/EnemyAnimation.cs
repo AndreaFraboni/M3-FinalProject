@@ -16,7 +16,7 @@ public class EnemyAnimation : MonoBehaviour
     private void Awake()
     {
         _anim = GetComponentInChildren<Animator>();
-        _enemy = GetComponentInChildren<EnemyController>();
+        _enemy = GetComponentInParent<EnemyController>();
     }
 
     private void SetVerticalSpeedParam(float diry)
@@ -51,7 +51,5 @@ public class EnemyAnimation : MonoBehaviour
         {
             SetDirectionalSpeedParams(direction);
         }
-
     }
-
 }

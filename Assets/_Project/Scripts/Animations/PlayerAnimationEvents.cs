@@ -11,8 +11,8 @@ public class PlayerAnimationEvents : MonoBehaviour
         if (_pc == null) _pc = GetComponentInParent<PlayerController>();
     }
 
-    public void DestroygameObject(string _state)
+    public void DestroygameObject()
     {
-        if (_state == "destroy") _pc.DestroyGOPlayer();
+        _pc.DestroyGOPlayer();
     }
 }

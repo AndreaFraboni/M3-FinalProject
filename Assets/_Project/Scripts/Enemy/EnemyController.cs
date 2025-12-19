@@ -37,8 +37,12 @@ public class EnemyController : MonoBehaviour
                 _target = go.transform;
             }
         }
-        _enemiesManager = FindObjectOfType<EnemiesManager>();
-        _enemyAnimation = FindObjectOfType<EnemyAnimation>();
+        _enemiesManager = FindObjectOfType<EnemiesManager>(); // prendo riferimento all'Enemies Manager in scena
+        if (!_enemiesManager) Debug.LogError("TI SEI DIMENTICATO L'EnemiesManager IN SCENA !!!!");
+
+        _enemyAnimation = GetComponentInChildren<EnemyAnimation>();
+        if (!_enemyAnimation) Debug.LogError("NON HO TROVATO IL COMPONENTE EnemyAnimation !!!!");
+
     }
 
     private void OnEnable()
@@ -58,14 +62,12 @@ public class EnemyController : MonoBehaviour
         if (_target == null)
         {
             direction = Vector2.zero;
-            _speed = 0;
             return;
         }
 
-        // Calcoliamo direzione verso il target !
+        // Calcoliamo direzione verso il target che è il Player !!!
         Vector2 targetPosition = _target.position;
         direction = (targetPosition - _rb.position).normalized;
-        if (direction.sqrMagnitude > 1f) direction = direction.normalized;
     }
 
     private void FixedUpdate()
@@ -94,7 +96,6 @@ public class EnemyController : MonoBehaviour
         if (_rb != null) _rb.simulated = false;
 
         _enemyAnimation.SetBoolParam("isDying", true);
-
         //Destroy(gameObject);
     }
 
@@ -109,7 +110,6 @@ public class EnemyController : MonoBehaviour
         {
             if (collision.gameObject.CompareTag(Tags.Player))
             {
-                //_target.gameObject.GetComponent<PlayerController>().DestroyGOPlayer();
                 _target.gameObject.GetComponent<PlayerController>().PlayerDeath();
                 DestroyGOEnemy();
             }

@@ -16,7 +16,7 @@ public class PlayerAnimation : MonoBehaviour
     private void Awake()
     {
         _anim = GetComponentInChildren<Animator>();
-        _pc = GetComponentInChildren<PlayerController>();
+        _pc = GetComponentInParent<PlayerController>();
     }
 
     private void SetVerticalSpeedParam(float diry)

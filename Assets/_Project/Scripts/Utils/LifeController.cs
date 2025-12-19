@@ -13,16 +13,19 @@ public class LifeController : MonoBehaviour
 
     private void Awake()
     {
-        _enemyController = GetComponentInParent<EnemyController>();
-        _playerController = GetComponentInParent<PlayerController>();
-
-        if (_enemyController == null && _playerController== null)
+        if (TryGetComponent<PlayerController>(out _playerController)) // if (objectToCheck.TryGetComponent<HingeJoint>(out HingeJoint hinge))
         {
-            Debug.Log("LifeController: PROBLEMA !!!! NON TROVO nè PlayerController nè EnemyContoller !!!");
             return;
         }
+        else if (TryGetComponent<EnemyController>(out _enemyController))
+        {
+            return;
+        }
+        else
+        {
+            Debug.LogError("LifeController è montato su un oggetto che non è un Player o un Enemy !!!");
+        }
     }
-
 
     // Getter
     public int GetHp() => _currenthp;
@@ -70,14 +73,14 @@ public class LifeController : MonoBehaviour
 
     private void Defeated()
     {
-        if (CompareTag("Enemy"))
-        {            
+        if (this.CompareTag("Enemy"))
+        {
             if (_enemyController != null) _enemyController.EnemyDeath();
             return;
         }
 
-        if (CompareTag("Player"))
-        {            
+        if (this.CompareTag("Player"))
+        {
             if (_playerController != null) _playerController.PlayerDeath();
             return;
         }

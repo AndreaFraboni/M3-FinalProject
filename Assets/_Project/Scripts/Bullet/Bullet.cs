@@ -9,6 +9,7 @@ public class Bullet : MonoBehaviour
     [SerializeField] private float _lifeSpan = 5f;
 
     private Rigidbody2D _rb;
+
     public float _speed = 10f;
     private Vector2 _direction;
 
@@ -43,12 +44,20 @@ public class Bullet : MonoBehaviour
         {
             if (collision.gameObject.CompareTag(Tags.Enemy)) // se l'oggetto colpito è un nemico lo devo danneggiare !!!
             {
-                collision.gameObject.GetComponent<LifeController>().TakeDamage(_damage);
-                Destroy(gameObject);
+                if (collision.gameObject.TryGetComponent<LifeController>(out LifeController _LifeController)) // ref : if (objectToCheck.TryGetComponent<HingeJoint>(out HingeJoint hinge))
+                {
+                    _LifeController.TakeDamage(_damage);
+                    Destroy(gameObject);
+                }
+                else
+                {
+                    Debug.LogError("ho avuto una collisione con qualcosa in cui Manca LifeController !!!");
+                    return;
+                }                   
             }
             else
             {
-                Destroy(gameObject); // il proiettile si distrugge comunque quando impatta con qualsiasi oggetto in scena senza chiamare alcun takedamage !
+                Destroy(gameObject); // il proiettile si distrugge comunque quando impatta con qualsiasi oggetto in scena !
             }
         }
     }

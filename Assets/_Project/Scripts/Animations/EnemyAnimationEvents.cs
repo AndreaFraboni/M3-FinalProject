@@ -11,8 +11,8 @@ public class EnemyAnimationEvents : MonoBehaviour
         if (_ec == null) _ec = GetComponentInParent<EnemyController>();
     }
 
-    public void DestroygameObject(string _state)
+    public void DestroygameObject()
     {
-        if (_state == "destroy") _ec.DestroyGOEnemy();
+       _ec.DestroyGOEnemy();
     }
 }
