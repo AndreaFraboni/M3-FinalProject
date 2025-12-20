@@ -40,28 +40,22 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision != null)
+        if (!collision.gameObject.CompareTag(Tags.Enemy))
         {
-            if (collision.gameObject.CompareTag(Tags.Enemy)) // se l'oggetto colpito è un nemico lo devo danneggiare !!!
-            {
-                if (collision.gameObject.TryGetComponent<LifeController>(out LifeController _LifeController)) // ref : if (objectToCheck.TryGetComponent<HingeJoint>(out HingeJoint hinge))
-                {
-                    _LifeController.TakeDamage(_damage);
-                    Destroy(gameObject);
-                }
-                else
-                {
-                    Debug.LogError("ho avuto una collisione con qualcosa in cui Manca LifeController !!!");
-                    return;
-                }                   
-            }
-            else
-            {
-                Destroy(gameObject); // il proiettile si distrugge comunque quando impatta con qualsiasi oggetto in scena !
-            }
+            Destroy(gameObject); // il proiettile si distrugge comunque quando impatta con qualsiasi oggetto in scena dotato di collider 2D anche se non è un Enemy !
+            return; 
         }
+
+        if (collision.gameObject.TryGetComponent<LifeController>(out LifeController _LifeController)) // ref : if (objectToCheck.TryGetComponent<HingeJoint>(out HingeJoint hinge))
+        {
+            _LifeController.TakeDamage(_damage);
+            Destroy(gameObject);
+        }
+        else
+        {
+            Debug.LogError("ho avuto una collisione con un Enemy che NON HA LifeController occorre aggiugerlo !!!");
+            Destroy(gameObject); // il proiettile si distrugge comunque !
+            return;
+        }             
     }
-
-
-
 }

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float speed = 5.0f;
+    [SerializeField] private float _speed = 5.0f;
+    [SerializeField] private Transform _weaponMountPoint;
 
     private float horizontal, vertical;
 
@@ -13,6 +14,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D _rb;
     private CircleCollider2D _Collider2D;
     private PlayerAnimation _PlayerAnimation;
+
+    private GameObject currentWeapon;
 
     private bool isAlive = true;
 
@@ -57,7 +60,7 @@ public class PlayerController : MonoBehaviour
 
     void Move()
     {
-        _rb.MovePosition(_rb.position + direction * (speed * Time.deltaTime));
+        _rb.MovePosition(_rb.position + direction * (_speed * Time.deltaTime));
     }
 
     public void DestroyGOPlayer()
@@ -74,6 +77,22 @@ public class PlayerController : MonoBehaviour
 
         _PlayerAnimation.SetBoolParam("isDying", true);
         //Destroy(gameObject); // si distrugge il gameobject alla fine dell'animazione della morte con un Evento registrato all'ultimo frame dell'animazione della morte
+    }
+
+    public void MountWeapon(GameObject _weaponPrefab)
+    {
+        if (_weaponPrefab == null)
+        {
+            Debug.Log("Errore weaponPreab è null !!!!");
+        }
+
+        if (currentWeapon != null)
+        {
+            Destroy(currentWeapon);
+        }
+
+        currentWeapon = Instantiate(_weaponPrefab);
+        currentWeapon.transform.SetParent(_weaponMountPoint, false);
     }
 
 }

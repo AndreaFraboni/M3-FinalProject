@@ -15,16 +15,13 @@ public class Gun : Weapon
         Vector2 targetPos = Target.GetComponent<Rigidbody2D>().position;
         Vector2 muzzlePos = spawnPoint.transform.position;
         Vector2 direction = (targetPos - muzzlePos);
-       
-        //Vector2 spawnPosition = new Vector2(spawnPoint.transform.position.x,spawnPoint.transform.position.y) + direction;
 
-        float spawnOffset = 0.5f;
+        float spawnOffset = 0.2f; // un pò distante dal muzzlepoint;
         Vector2 spawnPosition = muzzlePos + direction * spawnOffset;
-
-        GameObject cloneBullet = Instantiate(bulletPrefab, spawnPosition, Quaternion.identity);
 
         if (bulletPrefab != null)
         {
+            GameObject cloneBullet = Instantiate(bulletPrefab, spawnPosition, Quaternion.identity);
             cloneBullet.gameObject.GetComponent<Bullet>().Shoot(direction);
         }
         else
@@ -32,7 +29,5 @@ public class Gun : Weapon
             Debug.Log("Non hai assegnato il Prefab del Bullet !!!");
             return;
         }
-
     }
-
 }

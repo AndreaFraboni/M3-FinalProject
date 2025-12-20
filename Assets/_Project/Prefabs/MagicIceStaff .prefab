@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 8563489852746987618}
   - component: {fileID: 7187292251392925791}
   m_Layer: 0
-  m_Name: MagicFireStaff
+  m_Name: 'MagicIceStaff '
   m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -77,9 +77,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1afd5960df21c844b87ba4bec66a3bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 0.5
-  fireRange: 6
-  bulletPrefab: {fileID: 5095613240986355796, guid: 5949e4b9ba4c96c49a4d1da1bad77bd6, type: 3}
+  fireRate: 0.2
+  fireRange: 8
+  bulletPrefab: {fileID: 5095613240986355796, guid: 4f375b22ff5898549b6bd71b36aec589, type: 3}
   spawnPoint: {fileID: 2574951723567263555}
 --- !u!212 &7187292251392925791
 SpriteRenderer:
@@ -122,7 +122,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 747129e854067d944b8cbb3ca27ccf77, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1db9d03a7dc6a864aad61a1f8ab1702a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

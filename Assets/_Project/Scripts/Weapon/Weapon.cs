@@ -28,7 +28,7 @@ public class Weapon : MonoBehaviour
 
     }
 
-    protected virtual void Update()
+    protected void Update()
     {
         if (Time.time - _lastShootTime > fireRate)
         {
@@ -54,7 +54,4 @@ public class Weapon : MonoBehaviour
         }
         return NearstEnemyFounded;
     }
-
-
-
 }

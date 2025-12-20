@@ -73,13 +73,13 @@ public class LifeController : MonoBehaviour
 
     private void Defeated()
     {
-        if (this.CompareTag("Enemy"))
+        if (this.CompareTag(Tags.Enemy))
         {
             if (_enemyController != null) _enemyController.EnemyDeath();
             return;
         }
 
-        if (this.CompareTag("Player"))
+        if (this.CompareTag(Tags.Player))
         {
             if (_playerController != null) _playerController.PlayerDeath();
             return;
