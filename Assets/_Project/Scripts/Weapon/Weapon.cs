@@ -6,6 +6,7 @@ public class Weapon : MonoBehaviour
 {
     [SerializeField] protected float fireRate = 0.5f;
     [SerializeField] protected float fireRange = 6.0f;
+    [SerializeField] public string weaponId = "WId";
 
     protected EnemiesManager _enemiesRegister;
 
@@ -18,7 +19,7 @@ public class Weapon : MonoBehaviour
             _enemiesRegister = FindObjectOfType<EnemiesManager>();
             if (_enemiesRegister == null)
             {
-                Debug.LogError("EnemiesManager NON è in scena !!!");
+                Debug.LogError("EnemiesManager NON sta in scena !!!");
             }
         }
     }

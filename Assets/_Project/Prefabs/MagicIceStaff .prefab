@@ -79,6 +79,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fireRate: 0.2
   fireRange: 8
+  weaponId: IceStaff
   bulletPrefab: {fileID: 5095613240986355796, guid: 4f375b22ff5898549b6bd71b36aec589, type: 3}
   spawnPoint: {fileID: 2574951723567263555}
 --- !u!212 &7187292251392925791

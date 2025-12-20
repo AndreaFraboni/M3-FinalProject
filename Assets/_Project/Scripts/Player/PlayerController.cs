@@ -15,7 +15,8 @@ public class PlayerController : MonoBehaviour
     private CircleCollider2D _Collider2D;
     private PlayerAnimation _PlayerAnimation;
 
-    private GameObject currentWeapon;
+    private Weapon _currentWeapon;
+    private GameObject _gameObjectWeapon;
 
     private bool isAlive = true;
 
@@ -83,16 +84,31 @@ public class PlayerController : MonoBehaviour
     {
         if (_weaponPrefab == null)
         {
-            Debug.Log("Errore weaponPreab è null !!!!");
+            Debug.LogError("Errore la weaponPrefab risulta essere null !!!!");
+            return;
         }
 
-        if (currentWeapon != null)
+        Weapon _weapon = _weaponPrefab.GetComponent<Weapon>();
+        if (_weapon == null)
         {
-            Destroy(currentWeapon);
+            Debug.LogError("Il weaponPrefab del pickup NON risulta essere una Weapon !!!!");
+            return;
         }
 
-        currentWeapon = Instantiate(_weaponPrefab);
-        currentWeapon.transform.SetParent(_weaponMountPoint, false);
+        if (_currentWeapon != null && _currentWeapon.weaponId == _weapon.weaponId)
+        {
+            Debug.Log("Stiamo montando la stessa arma che abbiamo adesso !!!!");
+            return;
+        }
+        else
+        {
+            if (_gameObjectWeapon != null) Destroy(_gameObjectWeapon);
+
+            _gameObjectWeapon = Instantiate(_weaponPrefab);
+            _gameObjectWeapon.transform.SetParent(_weaponMountPoint, false);
+
+            _currentWeapon = _gameObjectWeapon.GetComponent<Weapon>();
+        }
     }
 
 }
