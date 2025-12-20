@@ -4,17 +4,17 @@ public class Pickup : MonoBehaviour
 {
     [SerializeField] GameObject weaponPrefab;
 
-    private PlayerController _pc;
+    private PlayerController _playerController;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag(Tags.Player)) return;
+        if (collision == null) return; // oggetto non valido
 
-        _pc = collision.GetComponent<PlayerController>();
+        if (!collision.CompareTag(Tags.Player)) return; // non è un player
 
-        if (_pc != null)
+        if (collision.TryGetComponent<PlayerController>(out _playerController))
         {
-            _pc.MountWeapon(weaponPrefab);
+            _playerController.MountWeapon(weaponPrefab);
             Destroy(gameObject);
         }
         else
