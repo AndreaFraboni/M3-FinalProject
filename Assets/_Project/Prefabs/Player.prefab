@@ -312,6 +312,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 5
   _weaponMountPoint: {fileID: 8454395656463542934}
+  DeathSound: {fileID: 8300000, guid: 390d37b60264def4a89c7e15237608c7, type: 3}
 --- !u!114 &8767273260007160303
 MonoBehaviour:
   m_ObjectHideFlags: 0

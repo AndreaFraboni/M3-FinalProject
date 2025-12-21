@@ -77,9 +77,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1afd5960df21c844b87ba4bec66a3bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 0.5
-  fireRange: 6
-  weaponId: FireStaff
+  _fireRate: 0.5
+  _fireRange: 6
+  _weaponId: FireStaff
+  _fireRateUpValue: 0.5
+  _fireRangeUpValue: 1
   bulletPrefab: {fileID: 5095613240986355796, guid: 5949e4b9ba4c96c49a4d1da1bad77bd6, type: 3}
   spawnPoint: {fileID: 2574951723567263555}
 --- !u!212 &7187292251392925791

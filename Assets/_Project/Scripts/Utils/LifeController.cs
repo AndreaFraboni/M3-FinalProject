@@ -84,7 +84,6 @@ public class LifeController : MonoBehaviour
             if (_playerController != null) _playerController.PlayerDeath();
             return;
         }
-        //Destroy(gameObject);
     }
 }
 

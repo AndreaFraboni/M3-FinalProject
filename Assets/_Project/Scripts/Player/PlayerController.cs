@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _speed = 5.0f;
     [SerializeField] private Transform _weaponMountPoint;
 
+    [SerializeField] private AudioClip DeathSound;
+
     private float horizontal, vertical;
 
     private Vector2 direction;
@@ -17,6 +19,8 @@ public class PlayerController : MonoBehaviour
 
     private Weapon _currentWeapon;
     private GameObject _gameObjectWeapon;
+
+    private AudioSource _AudioSource;
 
     private bool isAlive = true;
 
@@ -31,6 +35,12 @@ public class PlayerController : MonoBehaviour
         }
 
         _Collider2D = GetComponent<CircleCollider2D>();
+
+        _AudioSource = GetComponent<AudioSource>();
+        if (_AudioSource == null)
+        {
+            _AudioSource = gameObject.AddComponent<AudioSource>();
+        }
 
         _PlayerAnimation = GetComponent<PlayerAnimation>();
         if (!_PlayerAnimation) Debug.LogError("NON HO TROVATO IL COMPONENTE PlayerAnimation !!!!");
@@ -73,11 +83,15 @@ public class PlayerController : MonoBehaviour
     {
         isAlive = false;
 
+        if (DeathSound != null)
+        {
+            AudioSource.PlayClipAtPoint(DeathSound, transform.position);
+        }
+
         if (_Collider2D != null) _Collider2D.enabled = false;
         if (_rb != null) _rb.simulated = false;
 
         _PlayerAnimation.SetBoolParam("isDying", true);
-        //Destroy(gameObject); // si distrugge il gameobject alla fine dell'animazione della morte con un Evento registrato all'ultimo frame dell'animazione della morte
     }
 
     public void MountWeapon(GameObject _weaponPrefab)
@@ -92,10 +106,11 @@ public class PlayerController : MonoBehaviour
         if (_weapon == null)
         {
             Debug.LogError("Il weaponPrefab del pickup NON risulta essere una Weapon !!!!");
+            _weapon.UpdateFireParams();
             return;
         }
 
-        if (_currentWeapon != null && _currentWeapon.weaponId == _weapon.weaponId)
+        if (_currentWeapon != null && _currentWeapon._weaponId == _weapon._weaponId)
         {
             Debug.Log("Stiamo montando la stessa arma che abbiamo adesso !!!!");
             return;

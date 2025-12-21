@@ -7,6 +7,7 @@ public class EnemyController : MonoBehaviour
 {
     [SerializeField] private Transform _target;
     [SerializeField] private float _speed = 2.0f;
+    [SerializeField] private AudioClip DeathSound;
 
     private Rigidbody2D _rb;
     private CircleCollider2D _Collider2D;
@@ -14,6 +15,8 @@ public class EnemyController : MonoBehaviour
     private EnemyAnimation _enemyAnimation;
 
     private bool isAlive = true;
+
+    private AudioSource _AudioSource;
 
     private Vector2 direction;
 
@@ -28,6 +31,12 @@ public class EnemyController : MonoBehaviour
         }
 
         _Collider2D = GetComponent<CircleCollider2D>();
+
+        _AudioSource = GetComponent<AudioSource>();
+        if (_AudioSource == null)
+        {
+            _AudioSource = gameObject.AddComponent<AudioSource>();
+        }
 
         if (_target == null)
         {
@@ -92,11 +101,15 @@ public class EnemyController : MonoBehaviour
     {
         isAlive = false;
 
+        if (DeathSound != null)
+        {
+            AudioSource.PlayClipAtPoint(DeathSound, transform.position);
+        }
+
         if (_Collider2D != null) _Collider2D.enabled = false;
         if (_rb != null) _rb.simulated = false;
 
         _enemyAnimation.SetBoolParam("isDying", true);
-        //Destroy(gameObject);
     }
 
     public void DestroyGOEnemy()
