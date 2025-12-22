@@ -16,7 +16,7 @@ public class EnemyController : MonoBehaviour
 
     private bool isAlive = true;
 
-    private AudioSource _AudioSource;
+    private AudioSource _audioSource;
 
     private Vector2 direction;
 
@@ -32,10 +32,10 @@ public class EnemyController : MonoBehaviour
 
         _Collider2D = GetComponent<CircleCollider2D>();
 
-        _AudioSource = GetComponent<AudioSource>();
-        if (_AudioSource == null)
+        _audioSource = GetComponent<AudioSource>();
+        if (_audioSource == null)
         {
-            _AudioSource = gameObject.AddComponent<AudioSource>();
+            _audioSource = gameObject.AddComponent<AudioSource>();
         }
 
         if (_target == null)
@@ -81,7 +81,7 @@ public class EnemyController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        EnemyMovement();
+        if (isAlive) EnemyMovement();
     }
 
     void EnemyMovement()

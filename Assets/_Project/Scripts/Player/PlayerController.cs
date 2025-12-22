@@ -7,7 +7,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _speed = 5.0f;
     [SerializeField] private Transform _weaponMountPoint;
 
-    [SerializeField] private AudioClip DeathSound;
+    [SerializeField] private AudioClip deathSound;
+    [SerializeField] private AudioClip pickUpSound;
+    [SerializeField] private AudioClip itemPickUpSound;
 
     private float horizontal, vertical;
 
@@ -20,7 +22,7 @@ public class PlayerController : MonoBehaviour
     private Weapon _currentWeapon;
     private GameObject _gameObjectWeapon;
 
-    private AudioSource _AudioSource;
+    private AudioSource _audioSource;
 
     private bool isAlive = true;
 
@@ -36,10 +38,10 @@ public class PlayerController : MonoBehaviour
 
         _Collider2D = GetComponent<CircleCollider2D>();
 
-        _AudioSource = GetComponent<AudioSource>();
-        if (_AudioSource == null)
+        _audioSource = GetComponent<AudioSource>();
+        if (_audioSource == null)
         {
-            _AudioSource = gameObject.AddComponent<AudioSource>();
+            _audioSource = gameObject.AddComponent<AudioSource>();
         }
 
         _PlayerAnimation = GetComponent<PlayerAnimation>();
@@ -83,9 +85,9 @@ public class PlayerController : MonoBehaviour
     {
         isAlive = false;
 
-        if (DeathSound != null)
+        if (deathSound != null)
         {
-            AudioSource.PlayClipAtPoint(DeathSound, transform.position);
+            AudioSource.PlayClipAtPoint(deathSound, transform.position);
         }
 
         if (_Collider2D != null) _Collider2D.enabled = false;
@@ -106,17 +108,28 @@ public class PlayerController : MonoBehaviour
         if (_weapon == null)
         {
             Debug.LogError("Il weaponPrefab del pickup NON risulta essere una Weapon !!!!");
-            _weapon.UpdateFireParams();
             return;
         }
 
         if (_currentWeapon != null && _currentWeapon._weaponId == _weapon._weaponId)
         {
             Debug.Log("Stiamo montando la stessa arma che abbiamo adesso !!!!");
+            if (itemPickUpSound != null)
+            {
+                _audioSource.clip = itemPickUpSound;
+                _audioSource.Play();
+            }
+            _currentWeapon.UpdateFireParams();
             return;
         }
         else
         {
+            if (pickUpSound != null)
+            {
+                _audioSource.clip = pickUpSound;
+                _audioSource.Play();
+            }
+
             if (_gameObjectWeapon != null) Destroy(_gameObjectWeapon);
 
             _gameObjectWeapon = Instantiate(_weaponPrefab);

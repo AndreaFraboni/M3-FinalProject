@@ -8,16 +8,28 @@ public class Weapon : MonoBehaviour
     [SerializeField] protected float _fireRange = 6.0f;
     [SerializeField] public string _weaponId = "Set Weapon Id here !!!";
 
-    protected EnemiesManager _enemiesRegister;
-
-    protected float _lastShootTime;
-
     [SerializeField] protected float _fireRateUpValue = 0.1f;
     [SerializeField] protected float _fireRangeUpValue = 0.5f;
 
+    public AudioClip shootSound;
+
+    protected EnemiesManager _enemiesRegister;
+
+    public AudioSource _audioSource;
+
+    protected float _lastShootTime;
+
     // setter    
-    private void SetFireRate(float amount) => _fireRate = _fireRate - amount;
-    private void SetFireRange(float amount) => _fireRange = _fireRange + amount;
+    public void SetFireRate(float amount)
+    {
+        _fireRate = _fireRate + amount;
+        if (_fireRate > 5f) _fireRate = 5f;
+    }
+    public void SetFireRange(float amount)
+    {
+        _fireRange = _fireRange + amount;
+        if (_fireRange >= 10) _fireRange = 10;
+    }
 
     protected virtual void Awake()
     {
@@ -29,6 +41,13 @@ public class Weapon : MonoBehaviour
                 Debug.LogError("EnemiesManager NON sta in scena !!!");
             }
         }
+
+        _audioSource = GetComponent<AudioSource>();
+        if (_audioSource == null)
+        {
+            _audioSource = gameObject.AddComponent<AudioSource>();
+        }
+
     }
 
     protected virtual void Shoot()
@@ -63,10 +82,10 @@ public class Weapon : MonoBehaviour
         return NearstEnemyFounded;
     }
 
-    public void UpdateFireParams()
+    public virtual void UpdateFireParams()
     {
-        SetFireRate(_fireRateUpValue);
-        SetFireRange(_fireRangeUpValue);
+
+
     }
 
 }

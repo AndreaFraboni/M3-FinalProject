@@ -14,13 +14,18 @@ public class Gun : Weapon
 
         Vector2 targetPos = Target.GetComponent<Rigidbody2D>().position;
         Vector2 muzzlePos = spawnPoint.transform.position;
-        Vector2 direction = (targetPos - muzzlePos);
+        Vector2 direction = (targetPos - muzzlePos).normalized;
 
         float spawnOffset = 0.2f; // un pò distante dal muzzlepoint;
         Vector2 spawnPosition = muzzlePos + direction * spawnOffset;
 
         if (bulletPrefab != null)
         {
+            if (_audioSource != null)
+            {
+                _audioSource.clip = shootSound;
+                _audioSource.Play();
+            }
             GameObject cloneBullet = Instantiate(bulletPrefab, spawnPosition, Quaternion.identity);
             cloneBullet.gameObject.GetComponent<Bullet>().Shoot(direction);
         }
@@ -30,4 +35,11 @@ public class Gun : Weapon
             return;
         }
     }
+
+    public override void UpdateFireParams()
+    {
+        SetFireRange(_fireRangeUpValue);
+        SetFireRate(_fireRateUpValue);
+    }
+
 }
