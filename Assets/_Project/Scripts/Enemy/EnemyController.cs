@@ -1,13 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.U2D.IK;
 
 public class EnemyController : MonoBehaviour
 {
     [SerializeField] private Transform _target;
     [SerializeField] private float _speed = 2.0f;
     [SerializeField] private AudioClip DeathSound;
+
+    [SerializeField] private GameObject gameObjectToSpawn;
 
     private Rigidbody2D _rb;
     private CircleCollider2D _Collider2D;
@@ -114,6 +113,11 @@ public class EnemyController : MonoBehaviour
 
     public void DestroyGOEnemy()
     {
+        if (gameObjectToSpawn != null)
+        {
+            Instantiate(gameObjectToSpawn, transform.position, Quaternion.identity);
+        }
+
         Destroy(gameObject);
     }
 

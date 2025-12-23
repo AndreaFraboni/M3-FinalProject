@@ -162,6 +162,7 @@ MonoBehaviour:
   _target: {fileID: 0}
   _speed: 2
   DeathSound: {fileID: 8300000, guid: 390d37b60264def4a89c7e15237608c7, type: 3}
+  gameObjectToSpawn: {fileID: 693124087755341014, guid: 330e3366b3f63cf4f8c9e38e2b2dd324, type: 3}
 --- !u!114 &8915376044585114833
 MonoBehaviour:
   m_ObjectHideFlags: 0
