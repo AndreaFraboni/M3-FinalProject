@@ -316,6 +316,7 @@ MonoBehaviour:
   deathSound: {fileID: 8300000, guid: 390d37b60264def4a89c7e15237608c7, type: 3}
   pickUpSound: {fileID: 8300000, guid: 05f93024a07663943b7732347abf2417, type: 3}
   itemPickUpSound: {fileID: 8300000, guid: a98f3a4dc35e8d1488ba22205e501c32, type: 3}
+  _initialWeaponPrefab: {fileID: 8124037445801366682, guid: 3ee5ba47e11768740a9a9b1be98fbe8c, type: 3}
 --- !u!114 &8767273260007160303
 MonoBehaviour:
   m_ObjectHideFlags: 0
