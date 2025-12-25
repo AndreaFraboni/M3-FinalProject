@@ -1,0 +1,4338 @@
+fileFormatVersion: 2
+guid: 7da83da1af09f3840b8d030a99a5819a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 233
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec79ccc66468a0e41b4e133631893c66
+      internalID: -1553334946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 233
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9d931fe363881428a696508a145488
+      internalID: 1864912474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 232
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87eb36fc1fce22243871d200aa790d70
+      internalID: 391258740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 233
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdb52b950101314fa7db51e2586f3c3
+      internalID: 276198355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 232
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170d3eefcce0aeb40a2e31fe22f9dac7
+      internalID: -1514533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 233
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3198003720830c64681963531b622140
+      internalID: 120892346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 233
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901b83d5711f25b4aae72dbf815c733e
+      internalID: 619383944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 232
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ca82e13eb913a4e9a3c763af176019
+      internalID: -1705044511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_8
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 233
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052a73cc61d94c5458745e49e00c8a1b
+      internalID: 676949441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_9
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 232
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ff2129cab74c0468ed691f5b9e714b
+      internalID: 1856228543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 232
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb63eef31e6eeaf4993e7f3429067618
+      internalID: 1338736769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_11
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 232
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e283658ab9324f5488d2b78d7c100244
+      internalID: -1987335254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_12
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 233
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a77c1e427f0ff48b9a74b48de3144d
+      internalID: 149323240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_13
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 233
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f109c75a22c9347a4a23eaf73d1c8e
+      internalID: -1833126336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_14
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 233
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be68f1ea8fd7864f9ceb38039c44192
+      internalID: 1515542434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_15
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 229
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79ed89d207edcd4b8e03316da842e96
+      internalID: 680613236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_16
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 233
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7c1a51ce2425d418bdb05f9cb0b3e4
+      internalID: -1783060864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_17
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 233
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03dbaf7a755c4884bb4326b436c0002e
+      internalID: 1275601827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_18
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 233
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0936be4a032b644db94cdadcf6c57a8
+      internalID: -482427628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_19
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 233
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a82f0fe8c40b04ead87d0e74ee1f4f
+      internalID: -1180926697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_20
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 234
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac57cb2cec467684d9201b176e07bb8f
+      internalID: -151830037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_21
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 233
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac13dd8499194b44d8cb60c360cb018c
+      internalID: -573580820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_22
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 233
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe12a978145f204b90c69e73d04b35f
+      internalID: 1391519524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_23
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 233
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a6d1c664842dc44bc031f705d23337
+      internalID: 102462652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 201
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950542f5e06689e49a3ef4c26d81139c
+      internalID: 679428024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_25
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 201
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d060f590434c94a994a92e22f66954
+      internalID: 84041086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_26
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 200
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb8c626cc4338f48926847f7b6ae422
+      internalID: 2088311042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_27
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 201
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0eee2b603a39764186c9012f42e3dfe
+      internalID: 2118172364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_28
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 200
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cb82ee024a0db46ac47244da1d7c8d
+      internalID: 1742484382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_29
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 201
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525ef9b14fb4abb4da6b3ff11545f179
+      internalID: 1404254685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_30
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 201
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006db6c35ebad93488f6fbe726876be1
+      internalID: 1634696567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_31
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 201
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95e223c0c3c86344b53d39118058f64
+      internalID: -1105653466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_32
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 201
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c28ada7cdc52c47a75e4fd246b910d
+      internalID: 1307671997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_33
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 201
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41e04a9c478d5c46a05b506c46efdd1
+      internalID: 30307612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_34
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 200
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe7ecd4e2fdebe4e9094b66e1d1fe2f
+      internalID: 1152878142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_35
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 200
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bd59ae9db91c54dab4457000ed1f22
+      internalID: -18779348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_36
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 201
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbba258cec77c343b4db5f1a662b74e
+      internalID: 1123715315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_37
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 201
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae881d7f2e91d846b57dde336e4fa76
+      internalID: -1356599286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_38
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 201
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5154fbc5f7ad7cb46ba6aa64ac3d4ad6
+      internalID: -1054549526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_39
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 201
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6443a919c676284ba8fae6551eaac51
+      internalID: -612455430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_40
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 201
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4900fbfc4f5228a48a6964753303bbd8
+      internalID: 1154044939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_41
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 201
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfc83ca6d624444581f3233de5e6287
+      internalID: -446050590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_42
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 201
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a097a78677050ba428423151de617aaf
+      internalID: -1851689030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_43
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 201
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d337b0bef223143b01a7ebd4cf79cf
+      internalID: -997767757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_44
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 202
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9efbf28fff6b604dbed39826885d721
+      internalID: -2118200373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_45
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 201
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdb759c5f7f9d34dbacbe586ab06ebf
+      internalID: -815781111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_46
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 201
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c72568cf21c5044a69b4b518f1a525
+      internalID: -39213866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_47
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 200
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86598ce4ed8c5b440851009295d2e983
+      internalID: 622419167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_48
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 169
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb97d180c470b94babbf7351f76631e
+      internalID: 1075388729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_49
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 169
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16844117d2dab394f80a850e4a084ec5
+      internalID: 64189351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_50
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 168
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8281a70bb500cd84ea1fd33be3fec2d6
+      internalID: -324008197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_51
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 169
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5d0ff1bec53fe4898c1e68a43ce36f
+      internalID: 223247699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_52
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 168
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3648c1a15dc3c5b45844119445f2406d
+      internalID: 390760503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_53
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 169
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0064b052abe610448dca9d6bfd8f974
+      internalID: -977514815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_54
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 169
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e87225c37ec3f6439ff0d890ae89fbc
+      internalID: 465761759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_55
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 169
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88d72253a60a48488dfe51bb0c1662f
+      internalID: -1170581713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_56
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 169
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d231735b8c7c647ac75952cad1bb47
+      internalID: 158441716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_57
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 169
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae70dfbbbcb7614dbf5603e95b9a38b
+      internalID: 224938747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_58
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 169
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe4290e1f6a3974b84a99460b0fcaec
+      internalID: 583023888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_59
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 169
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d256d73feee8c46b50ec02e233a721
+      internalID: 119324096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_60
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 169
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec5d624d45ab044d83b4bbd8d99a82c
+      internalID: 1406109531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_61
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 169
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477efc65cfadab340abda2fd220a28f4
+      internalID: -1494780518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_62
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 169
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571da423dad9c604ab6aaa5a423c7731
+      internalID: 1329106362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_63
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 169
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c521f68eb5817ba47adcd1f28c1442ba
+      internalID: -749849228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_64
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 169
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52be8c8826eef78478e4b9c8701171ed
+      internalID: -578663257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_65
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 169
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb65a19f46e3fc945aa1d67caca2c6dd
+      internalID: -2001644424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_66
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 169
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee31167f114b8cc4495bd6fe2e9304d3
+      internalID: -1770186655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_67
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 169
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bf312609609c44eae4dbe7741a9a3a
+      internalID: 1561270275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_68
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 169
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5138cd11b990b3a439355b2edc441cf7
+      internalID: 748960912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_69
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 169
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d6e59b725108848bee1f9984b58f3a
+      internalID: -326271561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_70
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 169
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c23b9417d56cc746b1756d22238b35c
+      internalID: 862664501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_71
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 167
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19763f349493dc2458ce25e383860380
+      internalID: 2008330421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_72
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 137
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fc36f533064cc4ca6c79991c8456c4
+      internalID: 24252516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_73
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 137
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812792cd47d91ad4592a432fd21dc93c
+      internalID: 1252801304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_74
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 136
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee115004ab05b5447acb4fb93fe4757b
+      internalID: -843273428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_75
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 137
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b88f4171196d6d49b3994f484834125
+      internalID: -560481177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_76
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 136
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac8847c14c5cf345aeebf61d59f4e0c
+      internalID: -816210088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_77
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 137
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcf487a7d7aa8847b8a68194ca596a6
+      internalID: -1912199136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_78
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 137
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3629bfdab2f872b4ba6f03cb25a64ba7
+      internalID: 1892014585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_79
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 137
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b5a95016110ba4b86dfa740f863dda
+      internalID: -1154618874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_80
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 137
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095b9023064d8bd4da85a37266e4dec9
+      internalID: -2060301601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_81
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 137
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61d97b15cf887e429ab6f92ca527945
+      internalID: -1899707044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_82
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 137
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b5a216c8900ff45b0b15e39198dd0a
+      internalID: 774322031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_83
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 137
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef15eb63ed340841b62ed07572dc15f
+      internalID: 181476782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_84
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 137
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bad8f20d57b95c4b866602e26183658
+      internalID: 1829526487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_85
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 137
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4787b877c23df04eb323f432fc1d277
+      internalID: -1438217286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_86
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 137
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f95de1eba5bb2428b01db560b1a4f1
+      internalID: -1479245822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_87
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 137
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eabb4c7f88f6474da5d2c67eff94ec4
+      internalID: 1975931275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_88
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 137
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c57194d97998c4a871a9407971a7fd
+      internalID: -1416875827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_89
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 137
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b061f5e88f98e45a48a1e73f0bffc9
+      internalID: -941461021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_90
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 137
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821f336b4f0350c44a03ad62b115711c
+      internalID: -627371181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_91
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 137
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70f23685caebaa4b93429f746391a1a
+      internalID: 554383156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_92
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 136
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882568200499a17428d6f6872988b6d9
+      internalID: 1914355472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_93
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 137
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d27030aaf62484fb1bbff484779325
+      internalID: 156878067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_94
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 137
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69c110b36a3c2548b7867e0b5ba56e1
+      internalID: 1166310254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_95
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 132
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea007c9659207849b4b264709f33b34
+      internalID: -771297212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_96
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 105
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7b426d446d4f4408c8c416a0b01307
+      internalID: -1080938471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_97
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 105
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea8d4b1377be8d419204a56f589b882
+      internalID: -1748238278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_98
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 104
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4192f89fcd7b4a49a751610df7dc9e4
+      internalID: 816616635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_99
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 105
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1350859fbe8af7e41a2ddf3e1050dd12
+      internalID: -1413056206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_100
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 104
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d46985406f7a64e945e2e3ea4f7db4
+      internalID: -285766376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_101
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 105
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484f82da15edc9c49b781fbdd7626119
+      internalID: 175699909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_102
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 105
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52372418f5f5864083606fb2dcfd3ac
+      internalID: 1977005101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_103
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 105
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f991120660953a4a9ec67d887b1222f
+      internalID: 821815436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_104
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 105
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9bed3a6fc4463438a4898445c70cc7
+      internalID: 803487120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_105
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 105
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b720421f090934d85a4689c4edf68a
+      internalID: -1600842221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_106
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 105
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06285603589c5b4cb2235f4d2e16085
+      internalID: 482417149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_107
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 105
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8005ccba2bcca4aa2bee704b71bcf1
+      internalID: -1226678558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_108
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 105
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0d8b00e57c44d488582f30f1f5b8cb
+      internalID: -111502157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_109
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 105
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b0823cf732b814c878234a0018bf46
+      internalID: -230930958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_110
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 105
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe68ac6175207948b613023651d2f41
+      internalID: -453786430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_111
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 105
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9303ae80458c0ff4eaead38fd83cd45b
+      internalID: -1249025478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_112
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 105
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea863891f6ee0c42b4a1fc159add4dd
+      internalID: -1440566858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_113
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 105
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d906c541c4da3247b3290f3e2b694c1
+      internalID: -880196998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_114
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 105
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57973050e68d7524e9ad1d0ec1ab6da2
+      internalID: 1853034677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_115
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 105
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d9d53eae885a54c860a5e8b37c156a
+      internalID: 981617042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_116
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 104
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ade3cfb8a1ba54495911cb47fd336f
+      internalID: 749941170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_117
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 105
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5367c547a25cc8f4e8f003fbc4330bcd
+      internalID: 1014275537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_118
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 105
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2f1ffa3217caf4883066b62a90d1ad
+      internalID: -132839572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_119
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 100
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1520979497733444b5426330c13b78b
+      internalID: 1935277490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_120
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 73
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998d58d15e570124a84222df8be8fdc4
+      internalID: 1205669146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_121
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 73
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1ab7303a12c8b4aaef3865b4e0202a
+      internalID: -1480784220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_122
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 72
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e427fcc5700745641b7f75631d0b1de3
+      internalID: 820038221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_123
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 73
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f552681b891f154296146761353a9ff
+      internalID: 1473358562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_124
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 72
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8d9dbedd42e5949811666b61216993
+      internalID: -1387310950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_125
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 73
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519d570643a9f3f468fcb456217ff1ce
+      internalID: -1955164247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_126
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 73
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3319b9b9439abb8449f20ad4038e9a4b
+      internalID: 1467700999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_127
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 73
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ba501aacd09b8489eba7781fd7f103
+      internalID: 1787191340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_128
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 73
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd68c448aafec745a53f4f7a6d0cc84
+      internalID: -351725308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_129
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 73
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9f43bf745e29a4b9f72f600fb2ce76
+      internalID: -1718484849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_130
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 73
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c878cc82e0edeba499834eb2fc2efc5a
+      internalID: 1597493656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_131
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 73
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98eac7fd0b94ce549b103cad4e12b2e5
+      internalID: 1462737468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_132
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 73
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58172db3d0927548a736e9d4a1dddb0
+      internalID: 1162220134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_133
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 73
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926535e94ba06fe41b6cc2b6eb2f8080
+      internalID: -1125885102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_134
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 73
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b3ec8dd39cd284faee45c90243f897
+      internalID: 1989727493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_135
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 73
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fd5a484cff5614aba1843d4754a00d
+      internalID: -626533699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_136
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 73
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2abbf3fac9ea114ab09d433a0cbc8e5
+      internalID: -1904817431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_137
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 73
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defe8350ea4a413499ed4c17885266a3
+      internalID: -767846414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_138
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 73
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e1a32c1077a0a428788aa415af9fd4
+      internalID: 2147395177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_139
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 73
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a928c967bb98824b9102b307b7e66a4
+      internalID: 1908185023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_140
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 72
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f0c075a5cfd1d429dbafe1340d7ded
+      internalID: 827076421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_141
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 73
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1521727a03af4e441bbfb43ea47008c7
+      internalID: 692380114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_142
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 73
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d630d5c59402a4fb804267d876e84c
+      internalID: -591978677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_143
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 68
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53aca8673d678048a70afd39469d872
+      internalID: -1195394865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_144
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 41
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962c33abab999af46b3f86a9afb8c3e8
+      internalID: 2049541867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_145
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 41
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31519c71e7aa04043bbf1f5dcda3261a
+      internalID: 1756161106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_146
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 40
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20cbe4fec23a864f8521955653ed90f
+      internalID: -1396591144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_147
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 41
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1314f882dbde7f4cb41d2eef4452097
+      internalID: -2038741192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_148
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 40
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1bb53092da4144c928d3c9b8dcbe7b
+      internalID: 815626698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_149
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 41
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6dfc19ed6248b4db83fa2abc0c68e2
+      internalID: -303331921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_150
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 41
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed838ebcd757e14bb65d2cd6f67c0f9
+      internalID: 1869837697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_151
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 41
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5b0eb1eafdb964bb85f4c73f7eea61
+      internalID: 34906880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_152
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 41
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32567c72065bda843ad4a41a61e04cb2
+      internalID: 195298286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_153
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 41
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a78420ae7224c409327f7370452ea0
+      internalID: -1226885162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_154
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 41
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9747082e967009c4aa1135fc46698c12
+      internalID: 2014513178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_155
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 41
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acacb7e671b219042b043d5d4930026b
+      internalID: -372059373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_156
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 41
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a2cccf88615514681662774641ba54
+      internalID: -412499896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_157
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 41
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aae02adb79833141aacc989387ed0d7
+      internalID: -653454418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_158
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 41
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b545d08f108ff0f4a89e8ad453d532bd
+      internalID: -656184919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_159
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 41
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5b4ce3e28412d4daa330812325f296
+      internalID: 1708296630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_160
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 41
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42f443f42ab61d42933e5b3cbe2a193
+      internalID: -680595607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_161
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 41
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ba6fe8e07656d4aa751aae8cb7b086
+      internalID: -2019337714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_162
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 41
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06ac6fdb59efa340af4287f0546877f
+      internalID: 1722846511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_163
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 41
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221a34c2e5653224989a6e8a37213e97
+      internalID: 1881898890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_164
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 41
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1cee4119f2e28438ad3b0fab1ba6a3
+      internalID: -1743579837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_165
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 41
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3292f05ab44012d468616e8cc41ed6a2
+      internalID: 108473886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_166
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 41
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d41e6128e89ba479fb73e31932074a
+      internalID: -1249029593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_167
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 39
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb83ee4b6acccb45a7d1a8d2e943f0a
+      internalID: 1227173964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_168
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 9
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404a6a334301bb74a90bfed73b60d8a8
+      internalID: 1857470049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_169
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 9
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3333b4c32b7eb3f47a412191a16543f5
+      internalID: 810152596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_170
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 8
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fdd0ed84bcd0d4d95feb32b2bdb566
+      internalID: 1645741922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_171
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 9
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3a4b6e454d5084e95ca37d77ef3caa
+      internalID: 2021369788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_172
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 8
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4b8a789b693994cbec03bfa62d1e0d
+      internalID: 1983730211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_173
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 9
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b3a3ce39ac3eb438b3a8bc18862fbf
+      internalID: -1188465241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_174
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 9
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c15774345282e34db0a85ee62e16771
+      internalID: -2028832599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_175
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 9
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83544193f77ecb46ad05ce69e495968
+      internalID: 292840247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_176
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 9
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275ba65b267eb904bbb284e556234252
+      internalID: -1430370702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_177
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 9
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834e5e087cd411e448ad6dbdb051abdc
+      internalID: -1291275744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_178
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 8
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c193a2905cf2ded4999c22e7805ca2f3
+      internalID: 1129958420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_179
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 8
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdd53427134c6a49875bc2755241daa
+      internalID: 584481217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_180
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 8
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf90c19197a820f418472b3bd35f885b
+      internalID: 1142827646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_181
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 9
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814c210a88b81a7459a1fe71a1850238
+      internalID: 2023630011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_182
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 9
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8cdf750e72e174f84397c86a478941
+      internalID: -323461370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_183
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 8
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9615b02973cff0c4191292fc30e96207
+      internalID: 518364780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_184
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 9
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51afc9c3d4f2c24a8ff308cd4d39fab
+      internalID: -559473578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_185
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 9
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b7a5a4973b52649906b5837c6d1662
+      internalID: -1408129331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_186
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 9
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e379d948ada1d4c8f04c8354151c83
+      internalID: 1961516852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_187
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 9
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177952a84e9b184488d7294ebb98408e
+      internalID: -1023852654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_188
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 10
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2333660df001ee140b7fd8da09143fac
+      internalID: 396965677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_189
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 9
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e6e5ac6642c18458d29c79815dc348
+      internalID: 988946520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_190
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 9
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ebb1457094aaf488ec593e43b3df5c
+      internalID: -1663263943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orc-Soldier-Cyan_191
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 8
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b962c8b84eec5d4194401380f3a21e4
+      internalID: 581416968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Orc-Soldier-Cyan_0: -1553334946
+      Orc-Soldier-Cyan_1: 1864912474
+      Orc-Soldier-Cyan_10: 1338736769
+      Orc-Soldier-Cyan_100: -285766376
+      Orc-Soldier-Cyan_101: 175699909
+      Orc-Soldier-Cyan_102: 1977005101
+      Orc-Soldier-Cyan_103: 821815436
+      Orc-Soldier-Cyan_104: 803487120
+      Orc-Soldier-Cyan_105: -1600842221
+      Orc-Soldier-Cyan_106: 482417149
+      Orc-Soldier-Cyan_107: -1226678558
+      Orc-Soldier-Cyan_108: -111502157
+      Orc-Soldier-Cyan_109: -230930958
+      Orc-Soldier-Cyan_11: -1987335254
+      Orc-Soldier-Cyan_110: -453786430
+      Orc-Soldier-Cyan_111: -1249025478
+      Orc-Soldier-Cyan_112: -1440566858
+      Orc-Soldier-Cyan_113: -880196998
+      Orc-Soldier-Cyan_114: 1853034677
+      Orc-Soldier-Cyan_115: 981617042
+      Orc-Soldier-Cyan_116: 749941170
+      Orc-Soldier-Cyan_117: 1014275537
+      Orc-Soldier-Cyan_118: -132839572
+      Orc-Soldier-Cyan_119: 1935277490
+      Orc-Soldier-Cyan_12: 149323240
+      Orc-Soldier-Cyan_120: 1205669146
+      Orc-Soldier-Cyan_121: -1480784220
+      Orc-Soldier-Cyan_122: 820038221
+      Orc-Soldier-Cyan_123: 1473358562
+      Orc-Soldier-Cyan_124: -1387310950
+      Orc-Soldier-Cyan_125: -1955164247
+      Orc-Soldier-Cyan_126: 1467700999
+      Orc-Soldier-Cyan_127: 1787191340
+      Orc-Soldier-Cyan_128: -351725308
+      Orc-Soldier-Cyan_129: -1718484849
+      Orc-Soldier-Cyan_13: -1833126336
+      Orc-Soldier-Cyan_130: 1597493656
+      Orc-Soldier-Cyan_131: 1462737468
+      Orc-Soldier-Cyan_132: 1162220134
+      Orc-Soldier-Cyan_133: -1125885102
+      Orc-Soldier-Cyan_134: 1989727493
+      Orc-Soldier-Cyan_135: -626533699
+      Orc-Soldier-Cyan_136: -1904817431
+      Orc-Soldier-Cyan_137: -767846414
+      Orc-Soldier-Cyan_138: 2147395177
+      Orc-Soldier-Cyan_139: 1908185023
+      Orc-Soldier-Cyan_14: 1515542434
+      Orc-Soldier-Cyan_140: 827076421
+      Orc-Soldier-Cyan_141: 692380114
+      Orc-Soldier-Cyan_142: -591978677
+      Orc-Soldier-Cyan_143: -1195394865
+      Orc-Soldier-Cyan_144: 2049541867
+      Orc-Soldier-Cyan_145: 1756161106
+      Orc-Soldier-Cyan_146: -1396591144
+      Orc-Soldier-Cyan_147: -2038741192
+      Orc-Soldier-Cyan_148: 815626698
+      Orc-Soldier-Cyan_149: -303331921
+      Orc-Soldier-Cyan_15: 680613236
+      Orc-Soldier-Cyan_150: 1869837697
+      Orc-Soldier-Cyan_151: 34906880
+      Orc-Soldier-Cyan_152: 195298286
+      Orc-Soldier-Cyan_153: -1226885162
+      Orc-Soldier-Cyan_154: 2014513178
+      Orc-Soldier-Cyan_155: -372059373
+      Orc-Soldier-Cyan_156: -412499896
+      Orc-Soldier-Cyan_157: -653454418
+      Orc-Soldier-Cyan_158: -656184919
+      Orc-Soldier-Cyan_159: 1708296630
+      Orc-Soldier-Cyan_16: -1783060864
+      Orc-Soldier-Cyan_160: -680595607
+      Orc-Soldier-Cyan_161: -2019337714
+      Orc-Soldier-Cyan_162: 1722846511
+      Orc-Soldier-Cyan_163: 1881898890
+      Orc-Soldier-Cyan_164: -1743579837
+      Orc-Soldier-Cyan_165: 108473886
+      Orc-Soldier-Cyan_166: -1249029593
+      Orc-Soldier-Cyan_167: 1227173964
+      Orc-Soldier-Cyan_168: 1857470049
+      Orc-Soldier-Cyan_169: 810152596
+      Orc-Soldier-Cyan_17: 1275601827
+      Orc-Soldier-Cyan_170: 1645741922
+      Orc-Soldier-Cyan_171: 2021369788
+      Orc-Soldier-Cyan_172: 1983730211
+      Orc-Soldier-Cyan_173: -1188465241
+      Orc-Soldier-Cyan_174: -2028832599
+      Orc-Soldier-Cyan_175: 292840247
+      Orc-Soldier-Cyan_176: -1430370702
+      Orc-Soldier-Cyan_177: -1291275744
+      Orc-Soldier-Cyan_178: 1129958420
+      Orc-Soldier-Cyan_179: 584481217
+      Orc-Soldier-Cyan_18: -482427628
+      Orc-Soldier-Cyan_180: 1142827646
+      Orc-Soldier-Cyan_181: 2023630011
+      Orc-Soldier-Cyan_182: -323461370
+      Orc-Soldier-Cyan_183: 518364780
+      Orc-Soldier-Cyan_184: -559473578
+      Orc-Soldier-Cyan_185: -1408129331
+      Orc-Soldier-Cyan_186: 1961516852
+      Orc-Soldier-Cyan_187: -1023852654
+      Orc-Soldier-Cyan_188: 396965677
+      Orc-Soldier-Cyan_189: 988946520
+      Orc-Soldier-Cyan_19: -1180926697
+      Orc-Soldier-Cyan_190: -1663263943
+      Orc-Soldier-Cyan_191: 581416968
+      Orc-Soldier-Cyan_2: 391258740
+      Orc-Soldier-Cyan_20: -151830037
+      Orc-Soldier-Cyan_21: -573580820
+      Orc-Soldier-Cyan_22: 1391519524
+      Orc-Soldier-Cyan_23: 102462652
+      Orc-Soldier-Cyan_24: 679428024
+      Orc-Soldier-Cyan_25: 84041086
+      Orc-Soldier-Cyan_26: 2088311042
+      Orc-Soldier-Cyan_27: 2118172364
+      Orc-Soldier-Cyan_28: 1742484382
+      Orc-Soldier-Cyan_29: 1404254685
+      Orc-Soldier-Cyan_3: 276198355
+      Orc-Soldier-Cyan_30: 1634696567
+      Orc-Soldier-Cyan_31: -1105653466
+      Orc-Soldier-Cyan_32: 1307671997
+      Orc-Soldier-Cyan_33: 30307612
+      Orc-Soldier-Cyan_34: 1152878142
+      Orc-Soldier-Cyan_35: -18779348
+      Orc-Soldier-Cyan_36: 1123715315
+      Orc-Soldier-Cyan_37: -1356599286
+      Orc-Soldier-Cyan_38: -1054549526
+      Orc-Soldier-Cyan_39: -612455430
+      Orc-Soldier-Cyan_4: -1514533
+      Orc-Soldier-Cyan_40: 1154044939
+      Orc-Soldier-Cyan_41: -446050590
+      Orc-Soldier-Cyan_42: -1851689030
+      Orc-Soldier-Cyan_43: -997767757
+      Orc-Soldier-Cyan_44: -2118200373
+      Orc-Soldier-Cyan_45: -815781111
+      Orc-Soldier-Cyan_46: -39213866
+      Orc-Soldier-Cyan_47: 622419167
+      Orc-Soldier-Cyan_48: 1075388729
+      Orc-Soldier-Cyan_49: 64189351
+      Orc-Soldier-Cyan_5: 120892346
+      Orc-Soldier-Cyan_50: -324008197
+      Orc-Soldier-Cyan_51: 223247699
+      Orc-Soldier-Cyan_52: 390760503
+      Orc-Soldier-Cyan_53: -977514815
+      Orc-Soldier-Cyan_54: 465761759
+      Orc-Soldier-Cyan_55: -1170581713
+      Orc-Soldier-Cyan_56: 158441716
+      Orc-Soldier-Cyan_57: 224938747
+      Orc-Soldier-Cyan_58: 583023888
+      Orc-Soldier-Cyan_59: 119324096
+      Orc-Soldier-Cyan_6: 619383944
+      Orc-Soldier-Cyan_60: 1406109531
+      Orc-Soldier-Cyan_61: -1494780518
+      Orc-Soldier-Cyan_62: 1329106362
+      Orc-Soldier-Cyan_63: -749849228
+      Orc-Soldier-Cyan_64: -578663257
+      Orc-Soldier-Cyan_65: -2001644424
+      Orc-Soldier-Cyan_66: -1770186655
+      Orc-Soldier-Cyan_67: 1561270275
+      Orc-Soldier-Cyan_68: 748960912
+      Orc-Soldier-Cyan_69: -326271561
+      Orc-Soldier-Cyan_7: -1705044511
+      Orc-Soldier-Cyan_70: 862664501
+      Orc-Soldier-Cyan_71: 2008330421
+      Orc-Soldier-Cyan_72: 24252516
+      Orc-Soldier-Cyan_73: 1252801304
+      Orc-Soldier-Cyan_74: -843273428
+      Orc-Soldier-Cyan_75: -560481177
+      Orc-Soldier-Cyan_76: -816210088
+      Orc-Soldier-Cyan_77: -1912199136
+      Orc-Soldier-Cyan_78: 1892014585
+      Orc-Soldier-Cyan_79: -1154618874
+      Orc-Soldier-Cyan_8: 676949441
+      Orc-Soldier-Cyan_80: -2060301601
+      Orc-Soldier-Cyan_81: -1899707044
+      Orc-Soldier-Cyan_82: 774322031
+      Orc-Soldier-Cyan_83: 181476782
+      Orc-Soldier-Cyan_84: 1829526487
+      Orc-Soldier-Cyan_85: -1438217286
+      Orc-Soldier-Cyan_86: -1479245822
+      Orc-Soldier-Cyan_87: 1975931275
+      Orc-Soldier-Cyan_88: -1416875827
+      Orc-Soldier-Cyan_89: -941461021
+      Orc-Soldier-Cyan_9: 1856228543
+      Orc-Soldier-Cyan_90: -627371181
+      Orc-Soldier-Cyan_91: 554383156
+      Orc-Soldier-Cyan_92: 1914355472
+      Orc-Soldier-Cyan_93: 156878067
+      Orc-Soldier-Cyan_94: 1166310254
+      Orc-Soldier-Cyan_95: -771297212
+      Orc-Soldier-Cyan_96: -1080938471
+      Orc-Soldier-Cyan_97: -1748238278
+      Orc-Soldier-Cyan_98: 816616635
+      Orc-Soldier-Cyan_99: -1413056206
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
