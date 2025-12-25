@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AudioClip pickUpSound;
     [SerializeField] private AudioClip itemPickUpSound;
 
+    [SerializeField] GameObject _initialWeaponPrefab;
+
     private float horizontal, vertical;
 
     private Vector2 direction;
@@ -46,6 +48,8 @@ public class PlayerController : MonoBehaviour
 
         _PlayerAnimation = GetComponent<PlayerAnimation>();
         if (!_PlayerAnimation) Debug.LogError("NON HO TROVATO IL COMPONENTE PlayerAnimation !!!!");
+
+        if (_initialWeaponPrefab) MountWeapon(_initialWeaponPrefab);
     }
 
     private void Update()

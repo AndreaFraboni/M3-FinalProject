@@ -41,7 +41,6 @@ public class Weapon : MonoBehaviour
                 Debug.LogError("EnemiesManager NON sta in scena !!!");
             }
         }
-
         _audioSource = GetComponent<AudioSource>();
         if (_audioSource == null)
         {
