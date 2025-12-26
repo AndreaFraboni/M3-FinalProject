@@ -163,9 +163,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 10
-  _lifeSpan: 5
+  _lifeSpan: 6
   _audioSource: {fileID: 0}
-  impactSound: {fileID: 8300000, guid: b882265a0c6506d4f8dcd1ca7dc289eb, type: 3}
+  impactSound: {fileID: 8300000, guid: 71100eaf1c049924b9ff367abed80fb3, type: 3}
   _speed: 10
 --- !u!82 &6171361503873506992
 AudioSource:

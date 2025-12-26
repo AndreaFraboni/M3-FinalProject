@@ -52,20 +52,21 @@ public class Bullet : MonoBehaviour
         {
             if (impactSound != null)
             {
-                _audioSource.clip = impactSound;
-                _audioSource.Play();
+                AudioSource.PlayClipAtPoint(impactSound, transform.position, _audioSource.volume);
             }
 
-            Destroy(gameObject); // il proiettile si distrugge comunque quando impatta con qualsiasi oggetto in scena dotato di collider 2D anche se non è un Enemy !
-            return;
+            if (!collision.gameObject.CompareTag(Tags.TriggerGame))
+            {
+                Destroy(gameObject);
+                return;
+            }
         }
 
         if (collision.gameObject.TryGetComponent<LifeController>(out LifeController _LifeController)) // ref : if (objectToCheck.TryGetComponent<HingeJoint>(out HingeJoint hinge))
         {
             if (impactSound != null)
             {
-                _audioSource.clip = impactSound;
-                _audioSource.Play();
+                AudioSource.PlayClipAtPoint(impactSound, transform.position, _audioSource.volume);
             }
             _LifeController.TakeDamage(_damage);
             Destroy(gameObject);
@@ -74,12 +75,13 @@ public class Bullet : MonoBehaviour
         {
             if (impactSound != null)
             {
-                _audioSource.clip = impactSound;
-                _audioSource.Play();
+                AudioSource.PlayClipAtPoint(impactSound, transform.position, _audioSource.volume);
             }
-            Debug.LogError("ho avuto una collisione con un Enemy che NON HA LifeController occorre aggiugerlo !!!");
-            Destroy(gameObject); // il proiettile si distrugge comunque !
-            return;
+            if (!collision.gameObject.CompareTag(Tags.TriggerGame))
+            {
+                Destroy(gameObject);
+                return;
+            }
         }
     }
 }
