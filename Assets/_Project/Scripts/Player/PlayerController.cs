@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] GameObject _initialWeaponPrefab;
 
+    [SerializeField] int Coins = 0;
+
     private float horizontal, vertical;
 
     private Vector2 direction;
@@ -26,8 +28,6 @@ public class PlayerController : MonoBehaviour
     private GameObject _gameObjectWeapon;
 
     private AudioSource _audioSource;
-
-    private int coins = 0;
 
     private bool isAlive = true;
 
@@ -103,15 +103,14 @@ public class PlayerController : MonoBehaviour
         _PlayerAnimation.SetBoolParam("isDying", true);
     }
 
-    public void GetCoins(GameObject _coinPrefab)
+    public void GetCoins()
     {
-
         if (coinPickUpSound != null)
         {
             _audioSource.clip = coinPickUpSound;
             _audioSource.Play();
         }
-
+        Coins++;
     }
 
     public void MountWeapon(GameObject _weaponPrefab)

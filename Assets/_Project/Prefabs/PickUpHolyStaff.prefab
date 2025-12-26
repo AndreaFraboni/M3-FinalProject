@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5082429643941591374}
   - component: {fileID: 4325031541178729974}
   - component: {fileID: 831626802512500701}
+  - component: {fileID: -3081763797493754141}
   m_Layer: 0
   m_Name: PickUpHolyStaff
   m_TagString: Untagged
@@ -46,7 +47,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3ca8cc6b1dd8ce4daac8a34e7e8f112, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponPrefab: {fileID: 8124037445801366682, guid: eb0cb015b29cc984f9997d85330ed6b5, type: 3}
+  _weaponPrefab: {fileID: 8124037445801366682, guid: eb0cb015b29cc984f9997d85330ed6b5, type: 3}
+  _coinPrefab: {fileID: 0}
+  typeItem: 0
 --- !u!212 &4325031541178729974
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -144,3 +147,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.5}
   m_EdgeRadius: 0
+--- !u!95 &-3081763797493754141
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6600431743969805057}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
