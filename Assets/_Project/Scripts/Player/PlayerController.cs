@@ -130,7 +130,7 @@ public class PlayerController : MonoBehaviour
 
         if (_currentWeapon != null && _currentWeapon._weaponId == _weapon._weaponId)
         {
-            Debug.Log("Stiamo montando la stessa arma che abbiamo adesso !!!!");
+            //Debug.Log("Stiamo montando la stessa arma che abbiamo adesso !!!!");
             if (itemPickUpSound != null)
             {
                 _audioSource.clip = itemPickUpSound;

@@ -16,7 +16,7 @@ public class EnemiesManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("l'enemy non verrà registrato in quanto è già registrato !!!!");
+            Debug.LogWarning("l'enemy non verrà registrato in quanto è già registrato !!!!");
         }
     }
 
@@ -26,11 +26,11 @@ public class EnemiesManager : MonoBehaviour
 
         if (listEnemies.Remove(enemy))
         {
-            Debug.Log("Ho rimosso un enemy!!!");
+            //Debug.Log("Ho rimosso un enemy!!!");
         }
         else
         {
-            Debug.Log("Stò provando a rimuovere un enemy che non è nella lista !!!");
+            Debug.LogError("Stò provando a rimuovere un enemy che non è nella lista !!!");
         }
     }
 }
