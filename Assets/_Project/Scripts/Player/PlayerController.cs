@@ -8,8 +8,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform _weaponMountPoint;
 
     [SerializeField] private AudioClip deathSound;
-    [SerializeField] private AudioClip pickUpSound;
     [SerializeField] private AudioClip itemPickUpSound;
+    [SerializeField] private AudioClip weaponPickUpSound;
+    [SerializeField] private AudioClip coinPickUpSound;
 
     [SerializeField] GameObject _initialWeaponPrefab;
 
@@ -25,6 +26,8 @@ public class PlayerController : MonoBehaviour
     private GameObject _gameObjectWeapon;
 
     private AudioSource _audioSource;
+
+    private int coins = 0;
 
     private bool isAlive = true;
 
@@ -100,6 +103,17 @@ public class PlayerController : MonoBehaviour
         _PlayerAnimation.SetBoolParam("isDying", true);
     }
 
+    public void GetCoins(GameObject _coinPrefab)
+    {
+
+        if (coinPickUpSound != null)
+        {
+            _audioSource.clip = coinPickUpSound;
+            _audioSource.Play();
+        }
+
+    }
+
     public void MountWeapon(GameObject _weaponPrefab)
     {
         if (_weaponPrefab == null)
@@ -128,9 +142,9 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            if (pickUpSound != null)
+            if (weaponPickUpSound != null)
             {
-                _audioSource.clip = pickUpSound;
+                _audioSource.clip = weaponPickUpSound;
                 _audioSource.Play();
             }
 

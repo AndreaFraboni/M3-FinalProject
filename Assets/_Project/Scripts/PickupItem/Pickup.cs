@@ -2,7 +2,16 @@ using UnityEngine;
 
 public class Pickup : MonoBehaviour
 {
+    public enum itemType
+    {
+        WEAPON,
+        COIN
+    }
+
     [SerializeField] GameObject weaponPrefab;
+    [SerializeField] GameObject coinPrefab;
+
+    [SerializeField] itemType typeItem;
 
     private PlayerController _playerController;
 
@@ -12,14 +21,28 @@ public class Pickup : MonoBehaviour
 
         if (!collision.CompareTag(Tags.Player)) return; // non è un player
 
-        if (collision.TryGetComponent<PlayerController>(out _playerController))
+        switch (typeItem)
         {
-            _playerController.MountWeapon(weaponPrefab);
-            Destroy(gameObject);
+            case itemType.WEAPON:
+
+                if (collision.TryGetComponent<PlayerController>(out _playerController))
+                {
+                    _playerController.MountWeapon(weaponPrefab);
+                    Destroy(gameObject);
+                }
+                else
+                {
+                    Debug.LogError("Stavo per procedere al montaggio dell'arma ma NON trovo il componente PlayerController sul Player !!!");
+                }
+
+                break;
+            case itemType.COIN:
+                _playerController.GetCoins(coinPrefab);
+                Destroy(gameObject);
+                break;
+
         }
-        else
-        {
-            Debug.LogError("Stavo per procedere al montaggio dell'arma ma NON trovo il componente PlayerController sul Player !!!");
-        }
+
+
     }
 }
