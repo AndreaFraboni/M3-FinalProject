@@ -22,8 +22,8 @@ public class Weapon : MonoBehaviour
     // setter    
     public void SetFireRate(float amount)
     {
-        _fireRate = _fireRate + amount;
-        if (_fireRate > 5f) _fireRate = 5f;
+        _fireRate = _fireRate - amount;
+        if (_fireRate < 0.1f) _fireRate = 0.1f;
     }
     public void SetFireRange(float amount)
     {

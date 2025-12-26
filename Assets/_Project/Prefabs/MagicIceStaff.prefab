@@ -78,8 +78,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1afd5960df21c844b87ba4bec66a3bd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _fireRate: 1.5
-  _fireRange: 5
+  _fireRate: 0.7
+  _fireRange: 6
   _weaponId: IceStaff
   _fireRateUpValue: 0.1
   _fireRangeUpValue: 0.5
