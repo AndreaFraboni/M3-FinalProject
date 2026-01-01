@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -32,5 +31,8 @@ public class EnemiesManager : MonoBehaviour
         {
             Debug.LogError("Stò provando a rimuovere un enemy che non è nella lista !!!");
         }
+
+        if (listEnemies.Count <= 0)
+            Debug.Log("IL PLAYER HA VINTO !!!!");
     }
 }

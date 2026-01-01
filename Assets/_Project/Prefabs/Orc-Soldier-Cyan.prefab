@@ -146,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _currenthp: 100
   _maxHP: 100
-  _lives: 3
+  _lives: 2
 --- !u!114 &6238555947010349610
 MonoBehaviour:
   m_ObjectHideFlags: 0
