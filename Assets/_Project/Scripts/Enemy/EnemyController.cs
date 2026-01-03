@@ -14,6 +14,7 @@ public class EnemyController : MonoBehaviour
     private EnemyAnimation _enemyAnimation;
 
     private bool isAlive = true;
+    public bool isHit = false;
 
     private AudioSource _audioSource;
 
@@ -94,6 +95,11 @@ public class EnemyController : MonoBehaviour
         {
             _enemiesManager.RemoveEnemy(this);
         }
+    }
+
+    public void EnemyHit()
+    {
+        isHit = true;
     }
 
     public void EnemyDeath()

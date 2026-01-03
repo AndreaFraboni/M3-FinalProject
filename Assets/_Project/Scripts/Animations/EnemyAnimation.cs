@@ -38,15 +38,23 @@ public class EnemyAnimation : MonoBehaviour
 
     private void Update()
     {
-        Vector2 direction = _enemy.GetDirection();
-
-        isWalking = direction != Vector2.zero;
-
-        SetBoolParam("isWalking", isWalking);
-
-        if (isWalking)
+        if (!_enemy.isHit)
         {
-            SetDirectionalSpeedParams(direction);
+            Vector2 direction = _enemy.GetDirection();
+
+            isWalking = direction != Vector2.zero;
+
+            SetBoolParam("isWalking", isWalking);
+
+            if (isWalking)
+            {
+                SetDirectionalSpeedParams(direction);
+            }
+        }
+        else
+        {
+            _enemy.isHit = false;
+            _anim.SetTrigger("isHit");
         }
     }
 }

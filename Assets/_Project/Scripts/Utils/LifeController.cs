@@ -53,6 +53,18 @@ public class LifeController : MonoBehaviour
                     _currenthp = 100;
                 }
             }
+            else
+            {
+                if (this.CompareTag(Tags.Enemy))
+                {
+                    if (_enemyController != null)
+                    {
+                        _enemyController.EnemyHit();
+                    }
+                    return;
+                }
+                return;
+            }
         }
     }
 
