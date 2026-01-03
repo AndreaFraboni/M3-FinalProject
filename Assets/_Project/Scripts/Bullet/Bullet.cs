@@ -16,6 +16,7 @@ public class Bullet : MonoBehaviour
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
+
         _audioSource = GetComponent<AudioSource>();
         if (_audioSource == null)
         {
