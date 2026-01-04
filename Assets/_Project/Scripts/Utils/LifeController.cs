@@ -5,13 +5,12 @@ public class LifeController : MonoBehaviour
     [SerializeField] private int _currenthp = 100;
     [SerializeField] private int _maxHP = 100;
     [SerializeField] private int _lives = 3;
-
     private EnemyController _enemyController;
     private PlayerController _playerController;
 
     private void Awake()
     {
-        if (TryGetComponent<PlayerController>(out _playerController)) // if (objectToCheck.TryGetComponent<HingeJoint>(out HingeJoint hinge))
+        if (TryGetComponent<PlayerController>(out _playerController)) 
         {
             return;
         }

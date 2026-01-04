@@ -2,19 +2,12 @@ using UnityEngine;
 
 public class Pickup : MonoBehaviour
 {
-    public enum itemType
-    {
-        WEAPON,
-        COIN
-    }
-
+    public enum itemType { WEAPON, COIN }
     [SerializeField] GameObject _weaponPrefab;
     [SerializeField] GameObject _coinPrefab;
-
     [SerializeField] itemType typeItem;
 
     private PlayerController _playerController;
-
     private SpriteRenderer _spriteRenderer;
     private Animator _anim;
 

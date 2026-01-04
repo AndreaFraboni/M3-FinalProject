@@ -4,29 +4,22 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float _speed = 5.0f;
     [SerializeField] private Transform _weaponMountPoint;
-
     [SerializeField] private AudioClip deathSound;
     [SerializeField] private AudioClip itemPickUpSound;
     [SerializeField] private AudioClip weaponPickUpSound;
     [SerializeField] private AudioClip coinPickUpSound;
-
     [SerializeField] GameObject _initialWeaponPrefab;
-
     [SerializeField] int Coins = 0;
 
     private float horizontal, vertical;
-
     private Vector2 direction;
 
     private Rigidbody2D _rb;
     private CircleCollider2D _Collider2D;
     private PlayerAnimation _PlayerAnimation;
-
     private Weapon _currentWeapon;
     private GameObject _gameObjectWeapon;
-
     private AudioSource _audioSource;
-
     private bool isAlive = true;
 
     // Getter
@@ -153,5 +146,4 @@ public class PlayerController : MonoBehaviour
             _currentWeapon = _gameObjectWeapon.GetComponent<Weapon>();
         }
     }
-
 }

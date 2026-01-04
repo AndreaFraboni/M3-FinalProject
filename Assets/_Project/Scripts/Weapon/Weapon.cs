@@ -5,16 +5,12 @@ public class Weapon : MonoBehaviour
     [SerializeField] protected float _fireRate = 0.5f;
     [SerializeField] protected float _fireRange = 6.0f;
     [SerializeField] public string _weaponId = "Set Weapon Id here !!!";
-
     [SerializeField] protected float _fireRateUpValue = 0.1f;
     [SerializeField] protected float _fireRangeUpValue = 0.5f;
 
     public AudioClip shootSound;
-
     protected EnemiesManager _enemiesRegister;
-
     public AudioSource _audioSource;
-
     protected float _lastShootTime;
 
     // setter    
@@ -84,5 +80,4 @@ public class Weapon : MonoBehaviour
 
 
     }
-
 }

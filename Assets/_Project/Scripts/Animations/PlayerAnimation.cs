@@ -7,7 +7,6 @@ public class PlayerAnimation : MonoBehaviour
 
     private Animator _anim;
     private PlayerController _pc;
-
     private bool isWalking = false;
 
     private void Awake()
@@ -39,16 +38,11 @@ public class PlayerAnimation : MonoBehaviour
     private void Update()
     {
         Vector2 direction = _pc.GetDirection();
-
         isWalking = direction != Vector2.zero;
-
         SetBoolParam("isWalking", isWalking);
-
         if (isWalking)
         {
             SetDirectionalSpeedParams(direction);
         }
-
     }
-
 }

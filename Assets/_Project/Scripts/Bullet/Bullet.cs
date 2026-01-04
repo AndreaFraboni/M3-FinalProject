@@ -7,7 +7,6 @@ public class Bullet : MonoBehaviour
 
     public AudioSource _audioSource;
     public AudioClip impactSound;
-
     private Rigidbody2D _rb;
 
     public float _speed = 10f;
@@ -26,7 +25,7 @@ public class Bullet : MonoBehaviour
 
     private void Start()
     {
-        Destroy(gameObject, _lifeSpan); // autodistruzione dopo un tempo pari a _lifeSpan
+        Destroy(gameObject, _lifeSpan); 
     }
 
     private void FixedUpdate()

@@ -5,7 +5,6 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private Transform _target;
     [SerializeField] private float _speed = 2.0f;
     [SerializeField] private AudioClip DeathSound;
-
     [SerializeField] private GameObject gameObjectToSpawn;
 
     private Rigidbody2D _rb;
@@ -15,9 +14,7 @@ public class EnemyController : MonoBehaviour
 
     private bool isAlive = true;
     public bool isHit = false;
-
     private AudioSource _audioSource;
-
     private Vector2 direction;
 
     // Getter
