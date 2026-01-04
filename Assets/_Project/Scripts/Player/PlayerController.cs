@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
         _audioSource = GetComponent<AudioSource>();
         if (_audioSource == null)
         {
-            _audioSource = gameObject.GetComponent<AudioSource>();
+            _audioSource = gameObject.AddComponent<AudioSource>();
         }
 
         _PlayerAnimation = GetComponent<PlayerAnimation>();
