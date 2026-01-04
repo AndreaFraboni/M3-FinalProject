@@ -10,6 +10,7 @@ public class Bullet : MonoBehaviour
     private Rigidbody2D _rb;
 
     public float _speed = 10f;
+
     private Vector2 _direction;
 
     private void Awake()

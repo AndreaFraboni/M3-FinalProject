@@ -8,7 +8,7 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private GameObject gameObjectToSpawn;
 
     private Rigidbody2D _rb;
-    private CircleCollider2D _Collider2D;
+    private CircleCollider2D _collider2D;
     private EnemiesManager _enemiesManager;
     private EnemyAnimation _enemyAnimation;
 
@@ -27,7 +27,8 @@ public class EnemyController : MonoBehaviour
             _rb = GetComponent<Rigidbody2D>();
         }
 
-        _Collider2D = GetComponent<CircleCollider2D>();
+        _collider2D = GetComponent<CircleCollider2D>();
+        if (_collider2D == null) Debug.LogError("Manca il COLLIDER 2D !!!");
 
         _audioSource = GetComponent<AudioSource>();
         if (_audioSource == null)
@@ -108,7 +109,7 @@ public class EnemyController : MonoBehaviour
             AudioSource.PlayClipAtPoint(DeathSound, transform.position);
         }
 
-        if (_Collider2D != null) _Collider2D.enabled = false;
+        if (_collider2D != null) _collider2D.enabled = false;
         if (_rb != null) _rb.simulated = false;
 
         _enemyAnimation.SetBoolParam("isDying", true);

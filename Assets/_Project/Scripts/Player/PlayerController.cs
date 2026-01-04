@@ -15,11 +15,12 @@ public class PlayerController : MonoBehaviour
     private Vector2 direction;
 
     private Rigidbody2D _rb;
-    private CircleCollider2D _Collider2D;
-    private PlayerAnimation _PlayerAnimation;
+    private CircleCollider2D _collider2D;
+    private PlayerAnimation _playerAnimation;
     private Weapon _currentWeapon;
     private GameObject _gameObjectWeapon;
     private AudioSource _audioSource;
+
     private bool isAlive = true;
 
     // Getter
@@ -32,7 +33,8 @@ public class PlayerController : MonoBehaviour
             _rb = GetComponent<Rigidbody2D>();
         }
 
-        _Collider2D = GetComponent<CircleCollider2D>();
+        _collider2D = GetComponent<CircleCollider2D>();
+        if (_collider2D == null) Debug.LogError("Non trovo il COLLIDER 2D !!!!!"); 
 
         _audioSource = GetComponent<AudioSource>();
         if (_audioSource == null)
@@ -40,33 +42,30 @@ public class PlayerController : MonoBehaviour
             _audioSource = gameObject.AddComponent<AudioSource>();
         }
 
-        _PlayerAnimation = GetComponent<PlayerAnimation>();
-        if (!_PlayerAnimation) Debug.LogError("NON HO TROVATO IL COMPONENTE PlayerAnimation !!!!");
+        _playerAnimation = GetComponent<PlayerAnimation>();
+        if (!_playerAnimation) Debug.LogError("NON HO TROVATO IL COMPONENTE PlayerAnimation !!!!");
 
         if (_initialWeaponPrefab) MountWeapon(_initialWeaponPrefab);
     }
 
     private void Update()
     {
-        CheckInput();
+        if (isAlive) CheckInput();
     }
 
     private void FixedUpdate()
     {
-        Move();
+        if (isAlive) Move();
     }
 
     void CheckInput()
     {
-        if (isAlive)
-        {
             horizontal = Input.GetAxisRaw("Horizontal");
             vertical = Input.GetAxisRaw("Vertical");
 
             direction = new Vector2(horizontal, vertical);
 
             if (direction.sqrMagnitude > 1f) direction = direction.normalized;
-        }
     }
 
     void Move()
@@ -88,10 +87,10 @@ public class PlayerController : MonoBehaviour
             AudioSource.PlayClipAtPoint(deathSound, transform.position);
         }
 
-        if (_Collider2D != null) _Collider2D.enabled = false;
+        if (_collider2D != null) _collider2D.enabled = false;
         if (_rb != null) _rb.simulated = false;
 
-        _PlayerAnimation.SetBoolParam("isDying", true);
+        _playerAnimation.SetBoolParam("isDying", true);
     }
 
     public void GetCoins()
