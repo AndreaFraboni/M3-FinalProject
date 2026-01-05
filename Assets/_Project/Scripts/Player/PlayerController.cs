@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AudioClip itemPickUpSound;
     [SerializeField] private AudioClip weaponPickUpSound;
     [SerializeField] private AudioClip coinPickUpSound;
-    [SerializeField] GameObject _initialWeaponPrefab;
+    //[SerializeField] GameObject _initialWeaponPrefab;
     [SerializeField] int Coins = 0;
 
     private float horizontal, vertical;
@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
         }
 
         _collider2D = GetComponent<CircleCollider2D>();
-        if (_collider2D == null) Debug.LogError("Non trovo il COLLIDER 2D !!!!!"); 
+        if (_collider2D == null) Debug.LogError("Non trovo il COLLIDER 2D !!!!!");
 
         _audioSource = GetComponent<AudioSource>();
         if (_audioSource == null)
@@ -60,12 +60,12 @@ public class PlayerController : MonoBehaviour
 
     void CheckInput()
     {
-            horizontal = Input.GetAxisRaw("Horizontal");
-            vertical = Input.GetAxisRaw("Vertical");
+        horizontal = Input.GetAxisRaw("Horizontal");
+        vertical = Input.GetAxisRaw("Vertical");
 
-            direction = new Vector2(horizontal, vertical);
+        direction = new Vector2(horizontal, vertical);
 
-            if (direction.sqrMagnitude > 1f) direction = direction.normalized;
+        if (direction.sqrMagnitude > 1f) direction = direction.normalized;
     }
 
     void Move()
