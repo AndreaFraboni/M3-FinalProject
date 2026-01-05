@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
         _playerAnimation = GetComponent<PlayerAnimation>();
         if (!_playerAnimation) Debug.LogError("NON HO TROVATO IL COMPONENTE PlayerAnimation !!!!");
 
-        if (_initialWeaponPrefab) MountWeapon(_initialWeaponPrefab);
+        //if (_initialWeaponPrefab) MountWeapon(_initialWeaponPrefab); Player start without weapon !
     }
 
     private void Update()
